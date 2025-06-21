@@ -26,8 +26,16 @@ let arrMixedSorted = arrMixed.sort();
 console.log(arrMixedSorted); // Output : [ 100, 20, 30, 'apple', 'banana' ]
 
 
-let arrMixed2 = [100,"banana",20,30,"apple",true];
+let arrMixed2 = [100,"banana",20,30,"apple",true,1,2,3,4,5,5];
 
 let arrMixed2Sorted = arrMixed2.sort();
 
 console.log(arrMixed2Sorted); // Output : [ 100, 20, 30, 'apple', 'banana', true ]
+
+
+
+let m3 = [1,2,3,4,5,5,6,6,6,7,8,9,9,99,78];
+
+let m34 = m3.sort();
+
+console.log(m34);
