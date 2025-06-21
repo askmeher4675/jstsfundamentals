@@ -8,6 +8,7 @@ console.log(sum2); // Ouput : 20 , accumulator + sum of all numbers
 
 
 //acc+1 : acc -> If r is 'pass', then return acc + 1. Otherwise, return acc 
+// ternary operator -> condition ? exp if true : exp if false
 let results = ['pass','fail','pass'];
 let passCount = results.reduce((acc,r) => r === 'pass' ? acc+1 : acc,0);
 console.log(passCount);
