@@ -1,4 +1,4 @@
-// Generator fucntion is denoted with an Astrisk(*)
+// Generator function is denoted with an Astrisk(*)
 //yield -> used to pause execution and return intermediate reuslts
 //iterator.next() -> resumes function fromwhere it stopeed
 

@@ -1,4 +1,4 @@
-//Constructor objetyc is used to create and initalize objects
+//Constructor objetct is used to create and initalize objects
 function Person(name , age){
     this.name = name;
     this.age = age;
