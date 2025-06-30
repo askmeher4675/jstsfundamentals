@@ -9,15 +9,14 @@
 
 // This function simulates ordering coffee. It takes a callback function as an argument.
 function orderCoffee(callback) {
-    setTimeout(() => {
-        callback("Coffee is Ready!");
-    }, 2000);
+  setTimeout(() => {
+    callback("Coffee is Ready!");
+  }, 2000);
 }
-
 
 // You pass a function (the callback) that receives the result when it's ready.
 orderCoffee((coffee) => {
-    console.log(coffee); // Output: "Coffee is Ready!" // It will be executed AFTER 2 seconds, when setTimeout completes.
+  console.log(coffee); // Output: "Coffee is Ready!" // It will be executed AFTER 2 seconds, when setTimeout completes.
 });
 
 // Summary:

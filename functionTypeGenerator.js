@@ -2,10 +2,10 @@
 //yield -> used to pause execution and return intermediate reuslts
 //iterator.next() -> resumes function fromwhere it stopeed
 
-function * generatorFunction(){
-    yield "Hello";
-    yield "Hi";
-    yield "!";
+function* generatorFunction() {
+  yield "Hello";
+  yield "Hi";
+  yield "!";
 }
 
 // 1️⃣  Create the iterator

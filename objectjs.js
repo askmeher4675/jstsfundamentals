@@ -1,9 +1,9 @@
 //Declare a object
 let person = {
-    firstName : "John",
-    lastName : "Doe",
-    age :28,
-    isStudent : false
+  firstName: "John",
+  lastName: "Doe",
+  age: 28,
+  isStudent: false,
 };
 
 console.log(person);

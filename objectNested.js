@@ -1,11 +1,11 @@
 //Declare a object
 let person = {
-    firstName : "John",
-    grade: 12,
-    subjects :{
-        math : "A",
-        science : "B"
-    }
+  firstName: "John",
+  grade: 12,
+  subjects: {
+    math: "A",
+    science: "B",
+  },
 };
 
 console.log(person);

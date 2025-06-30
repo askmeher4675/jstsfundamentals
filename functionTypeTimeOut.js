@@ -3,6 +3,6 @@
 // It schedules the function to run after the specified time (in milliseconds).
 
 setTimeout(() => {
-    console.log("Calling Function");
-    console.log("✅ This message appears after 7 seconds");
+  console.log("Calling Function");
+  console.log("✅ This message appears after 7 seconds");
 }, 7000);

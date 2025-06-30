@@ -5,5 +5,3 @@
 //async is not mandatory for callbacks and promises functions
 
 // call back -> promise -> async/await
-
-

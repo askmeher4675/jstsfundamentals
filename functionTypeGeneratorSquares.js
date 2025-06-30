@@ -1,7 +1,7 @@
-function * squaresOfNumber(limit){
-    for(let i=1;i<=limit;i++){
-        yield i*i;
-    }
+function* squaresOfNumber(limit) {
+  for (let i = 1; i <= limit; i++) {
+    yield i * i;
+  }
 }
 
 const squares = squaresOfNumber(5);

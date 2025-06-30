@@ -9,20 +9,17 @@ console.log("Pop:", arr1); // [1, 2]
 
 //shift() - removes first element from left side
 arr1.shift();
-console.log("Shift:", arr1);//[2]
+console.log("Shift:", arr1); //[2]
 
 //unshift() - adds element to the initial array
 arr1.unshift(4);
-console.log("Shift:", arr1);//[4,2]
+console.log("Shift:", arr1); //[4,2]
 
-
-
-
-//slice() - 
+//slice() -
 
 //concat() - to combine two arrays
 //explore option to merge two arrays where a similar element is there
-// maintains the indexes 
+// maintains the indexes
 
 //indexOf() -
 //not found , returns -1
@@ -30,7 +27,6 @@ console.log("Shift:", arr1);//[4,2]
 
 //includes() - whether a certain value is there or not
 //returns true or false
-
 
 //forEach()
 
@@ -45,17 +41,8 @@ console.log("Shift:", arr1);//[4,2]
 //reverse() - reverse the elements
 
 //sort() - sorts the elements and returns the sorted array
-//numbers 
+//numbers
 //alphabets
 //combination of data types
 // 100,20,30
 //100,banana,20,30,apple
-
-
-
-
-
-
-
-
-
